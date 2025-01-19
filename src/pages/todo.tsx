@@ -23,8 +23,8 @@ export default function Todos() {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-            <h1 className="text-3xl font-bold mb-6  text-green-600">To-Do App</h1>
-            <div className="bg-white p-6 rounded-lg shadow-md w-96  text-green-600">
+            <h1 className="text-3xl font-bold mb-6  text-blue-600">To-Do App</h1>
+            <div className="bg-white p-6 rounded-lg shadow-md w-96  text-blue-600">
                 <ul className="space-y-2 mb-4">
                     {todos.map((todo) => (
                         <li
